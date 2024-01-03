@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Pressure Monitoring System</title>
+    <script defer src="script.js"></script>
+    <link rel="stylecss" href="style.css">
+</head>
+<body>
+
+<header>
+    <center>
+    <h1>Blood Pressure Monitoring System</h1>
+</center>
+</header><br> <br>
+
+<main>
+    <form id="bpForm"><div>
+        <label for="systolic">Systolic Pressure:</label>
+        <input type="number" id="systolic" required>
+    </div><br><br>
+
+
+<div>
+        <label for="diastolic">Diastolic Pressure:</label>
+        <input type="number" id="diastolic" required>
+    </div><br><br>
+
+<div>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+    </div><br><br>
+
+        <button type="button" onclick="addEntry()">Add Entry</button>
+    </form><br> <br>
+    <center>
+<table id="bpTable" border="1">
+    <thead>
+        <tr>
+            <th> DATE</th>
+            <th>SYSTOLIC PRESSURE </th>
+            <th>DIASTOLIC PRESSURE</th>
+
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+</td>
+</tr>
+</main>
+    <!-- <table id="bpTable">
+        <th>
+            <tr>
+                <th>Date</th>
+                <th>Systolic Pressure</th>
+                <th>Diastolic Pressure</th>
+            </tr>
+        </th> -->
+       
+    </center>
+
+
+</body>
+</html>
